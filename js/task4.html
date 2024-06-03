@@ -1,0 +1,13 @@
+<h1 id="result"></h1>
+<button onclick="update(event)">Vijaya</button>
+<button onclick="update(event)">Annappa</button>
+<button onclick="update(event)">Shirnal</button>
+<script>
+    //select h1
+    var h1 = document.getElementById("result")
+
+    function update()
+    {
+        h1.textContent=event.target.textContent
+    }
+</script>
